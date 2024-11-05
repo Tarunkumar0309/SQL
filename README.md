@@ -1,2 +1,2 @@
 # SQL
-Collection of my learning of MYSQL
+Collection of my learnings of MYSQL
