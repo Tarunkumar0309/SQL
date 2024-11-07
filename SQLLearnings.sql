@@ -31,6 +31,24 @@ followers int default 0,
 following int,
 constraint age_check check (age >= 13), primary key (id)
 );
+insert into user
+(id, age, name, email, followers, following)
+values
+(1, 14, "adam", "adam@yahoo.in", 123, 145),
+(2, 15, "bob", "bob123@gmail.com", 200, 200),
+(3, 16, "casey", "casey3@email.com", 300, 306),
+(4, 15, "donald", "donald@gmail.com", 200, 105);
+
+-- select id, name, age from user;-- 
+-- select *from user;-- 
+
+select distinct age from user;
+
+
+
+
+
+
 create table post (
 id int primary key,
 content varchar(100),
